@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amazi', sans-serif;
+    background-image: url('blockchain-background.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#game-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+#coin-counter {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.balance-section {
+    margin-bottom: 10px;
+}
+
+.balance-section div {
+    margin-bottom: 5px;
+}
+
+#task-section {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#wallet-section {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+a {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0088cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+a:hover {
+    background-color: #0077b5;
+    transform: scale(1.05);
+}
+
+.logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
